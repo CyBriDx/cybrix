@@ -1,0 +1,44 @@
+a:link {
+    color: orange;
+text-decoration:none;
+}
+a:visited {
+    color: yellow;
+text-decoration:none;
+}
+a:hover {
+    color: red;
+text-decoration:none;
+}
+
+a:active {
+    color: blue;
+text-decoration:none;
+}
+li{color:yellow;
+}
+div{background:black;}
+body{
+background:black;}
+h1{color:yellow;
+font-family:"AGENCY FB";
+}
+img.bg {
+			min-height: 100%;
+			min-width: 1024px;
+			width: 100%;
+			height: auto;		
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+		
+		@media screen and (max-width: 1024px){
+			img.bg {
+				left: 50%;
+				margin-left: -512px; }
+		}
+		
+		div.page-wrap { background:black; position:relative; width: 840px; margin: 40px auto; padding: 20px;  -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
+		p { font: 19px/2 "AGENCY FB", "AGENCY FB"; margin: 0 0 30px 0; text-indent: 40px; }
+p > h1{ font: 28px/2 "AGENCY FB", "AGENCY FB"; margin: 0 0 40px 0; text-indent: 40px; }
